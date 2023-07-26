@@ -10,7 +10,7 @@ Code that allows a Telegram bot to scrape article links from a website and sends
 <img src="https://user-images.githubusercontent.com/122472324/256364284-3fef98f6-8a4f-4b87-a0af-1121b52bc2e7.jpeg" width=30% height=30% alt="screenshot1"> 
 <img src="https://user-images.githubusercontent.com/122472324/256364288-adc128e6-1f3b-44d5-87bd-333749e06a91.jpeg" width=30% height=30% alt="screenshot2">
 
-# Instructions 
+## Instructions 
 1. Use a device that can run 24/7, like a Raspberry Pi.
 2. Install Python and [Telegram's Python Bot code](https://github.com/python-telegram-bot/python-telegram-bot) on said device.
 3. Use Telegram's [BotFather](https://core.telegram.org/bots/tutorial) to create a new bot. Put the API token in your Python file.
@@ -19,7 +19,7 @@ Code that allows a Telegram bot to scrape article links from a website and sends
 6. Run the bot and see if you can scrape the URLs of the articles. _(Use the 'test.py' file if you just want to test the web scraper first before entering anything into the Telegram bot code)._
 7. 📚 👓 Enjoy! 
 
-# Examples:
+## Examples:
 
 ##### PC Gamer
 ```python3
@@ -59,5 +59,5 @@ async def reuters(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if counter > 10:
             break
 ```
-# Questions?
+## Questions?
 Feel free to post in the Discussions or Issues tabs. 
