@@ -15,7 +15,7 @@ Code that allows a Telegram bot to scrape article links from a website and sends
 2. Install Python and [Telegram's Python Bot code](https://github.com/python-telegram-bot/python-telegram-bot) on said device.
 3. Use Telegram's [BotFather](https://core.telegram.org/bots/tutorial) to create a new bot. Put the API token in your Python file.
 4. Find the publication site(s) you want to pull articles from and identify the article div class name. I suggest using a browser's inspection feature.
-5. Edit the Python file to include the website, the article div class, and the function to pull the article links.
+5. Edit the Python file to include the website, the article div class, and the href into the function to pull the article links.
 6. Run the bot and see if you can scrape the URLs of the articles. _(Use the 'test.py' file if you just want to test the web scraper first before entering anything into the Telegram bot code)._
 7. 📚 👓 Enjoy! 
 
