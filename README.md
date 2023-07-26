@@ -1,5 +1,5 @@
 # Telegram Article Scraper Bot
-Code that allows a Telegram bot to scrape article links from a website and sends it to your chat. 
+Code that allows a Telegram bot to scrape article links from a website using [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/) and sends it to your chat. 
 
 ##### Features:
 - 🎨 Customizable - You can pretty much try any publication site (some do block web scraping).
